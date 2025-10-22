@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Main Content Area */
+.main-content {
+    margin-top: 20px;
+}
+
+/* Risk Level Section */
+.risk-level {
+    background-color: #f8d7da;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: #721c24;
+}
+
+.risk-level h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Info Cards */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: inline-block;
+    width: 28%;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+/* Button Styles */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Support Info */
+.support {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    border-radius: 5px;
+}
+
+/* Footer or Additional Info */
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
